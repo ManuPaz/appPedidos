@@ -1,0 +1,61 @@
+{
+  "name": "app_tfg_frontend",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest"
+  },
+  "jest": {
+  "preset": "react-native"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/bottom-tabs": "^6.4.0",
+    "@react-navigation/drawer": "^6.5.0",
+    "@react-navigation/material-top-tabs": "^6.2.4",
+    "@react-navigation/native": "^6.0.13",
+    "@react-navigation/native-stack": "^6.9.0",
+    "@reduxjs/toolkit": "^1.8.5",
+    "@types/react": "~18.0.0",
+    "@types/react-native": "~0.70.6",
+    "axios": "^0.27.2",
+    "base-64": "^1.0.0",
+    "eas-cli": "^0.49.0",
+    "expo": "^47.0.0",
+    "expo-cli": "^4.3.0",
+    "expo-linear-gradient": "~12.0.1",
+    "expo-status-bar": "~1.4.2",
+    "expo-updates": "^0.15.6",
+    "jest": "26.6.3",
+    "js-sha256": "^0.9.0",
+    "react": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-ad-manager": "^2.0.1",
+    "react-native-calendars": "^1.1275.0",
+    "react-native-date-picker": "^4.2.6",
+    "react-native-gesture-handler": "~2.8.0",
+    "react-native-modal-datetime-picker": "^14.0.0",
+    "react-native-modern-datepicker": "^1.0.0-beta.91",
+    "react-native-numeric-input": "^1.9.1",
+    "react-native-pager-view": "6.0.1",
+    "react-native-paper": "^4.12.5",
+    "react-native-screens": "~3.18.0",
+    "react-native-select-dropdown": "^3.0.1",
+    "react-native-tab-view": "^3.1.1",
+    "react-native-table-component": "^1.2.2",
+    "react-navigation": "^4.4.4",
+    "react-redux": "^8.0.4",
+    "typescript": "^4.6.3",
+    "unset-value": "^2.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/react": "~18.0.24",
+    "jest": "26.6.3"
+  },
+  "private": true
+}
